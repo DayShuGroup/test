@@ -1,0 +1,48 @@
+      <link href="../../Plugin/flexSelect/flexselect.css" rel="stylesheet" />
+    <script src="../../Plugin/flexSelect/liquidmetal.js"></script>
+    <script src="../../Plugin/flexSelect/jquery.flexselect.js"></script>
+
+var hCustCode = $("#hidCustomCode").val();
+var hAreaCode = $("#hidAreaCode").val();
+
+,custCode:'"+hCustCode+"',areaCode:'"+hAreaCode+"'
+
+
+   <tr>
+  <td class="lbl">关区代码</td>
+                        <td>
+                            <input type="hidden" runat="server" id="hidCustomCode"  />
+                              <select id="president" class="customsCode text-input" name="president" style="width:84%; height:18px;"> </select>
+                        </td> 
+
+                     <td class="lbl">区域代码</td>
+                        <td>
+                             <input type="hidden" runat="server" id="hidAreaCode" />
+                              <select id="areaCode" class="ddlAreaCode text-input" name="areaCode"  style="width:84%; height:18px;"> </select>
+                        </td>
+                </tr>
+
+
+          <div id="toolbar">
+                            <asp:EButton runat="server" ID="btnSearch" Text="查询" Icon="find" />
+                        <asp:EButton runat="server" ID="btnReset" Text="重置" Icon="reset" OnClick="btnReset_Click" OnClientClick="eci.reset('tbQuery');" />
+            </div>
+
+
+  protected void btnReset_Click(object sender, EventArgs e)
+    {
+        this.txtDATE_YEAR.SelectedValue = DateTime.Now.Year.ToString();
+        this.txtDateMonth.SelectedValue = DateTime.Now.ToString("MM");
+        StartBind();
+    }
+
+
+   if (!string.IsNullOrEmpty(this.hidCustomCode.Value))
+        {
+            request.Entity.AddCommonQuerySetting("CUSTOMS_CODE", "A.CUSTOMS_CODE|string|Equals", this.hidCustomCode.Value);
+        }
+
+        if (!string.IsNullOrEmpty(this.hidAreaCode.Value))
+        {
+            request.Entity.AddCommonQuerySetting("AREA_CODE", "A.AREA_CODE|string|Equals", this.hidAreaCode.Value);
+        }
