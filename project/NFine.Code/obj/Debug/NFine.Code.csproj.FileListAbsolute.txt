@@ -1,0 +1,17 @@
+E:\pro\NFine\project\NFine.Code\bin\Debug\NFine.Code.dll
+E:\pro\NFine\project\NFine.Code\bin\Debug\NFine.Code.pdb
+E:\pro\NFine\project\NFine.Code\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\pro\NFine\project\NFine.Code\bin\Debug\log4net.dll
+E:\pro\NFine\project\NFine.Code\bin\Debug\Newtonsoft.Json.dll
+E:\pro\NFine\project\NFine.Code\bin\Debug\NPOI.dll
+E:\pro\NFine\project\NFine.Code\bin\Debug\NPOI.OOXML.dll
+E:\pro\NFine\project\NFine.Code\bin\Debug\NPOI.OpenXml4Net.dll
+E:\pro\NFine\project\NFine.Code\bin\Debug\NPOI.OpenXmlFormats.dll
+E:\pro\NFine\project\NFine.Code\bin\Debug\log4net.xml
+E:\pro\NFine\project\NFine.Code\bin\Debug\Newtonsoft.Json.xml
+E:\pro\NFine\project\NFine.Code\bin\Debug\NPOI.xml
+E:\pro\NFine\project\NFine.Code\bin\Debug\NPOI.OOXML.xml
+E:\pro\NFine\project\NFine.Code\bin\Debug\NPOI.OpenXml4Net.xml
+E:\pro\NFine\project\NFine.Code\obj\Debug\NFine.Code.dll
+E:\pro\NFine\project\NFine.Code\obj\Debug\NFine.Code.pdb
+E:\pro\NFine\project\NFine.Code\obj\Debug\NFine.Code.csprojResolveAssemblyReference.cache
