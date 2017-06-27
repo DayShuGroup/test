@@ -35,3 +35,8 @@ button[disabled],button[disabled] button{color:#fff;opacity:1;cursor:default;}
 .login_tips{position:absolute;bottom:10px;z-index: 99;width:100%;}
 .tips_msg{height:30px;line-height:30px;color: red;margin: 0 auto;border-radius:5px;width:300px;font-size:14px;}
 .tips_msg i{position: relative;top: 0.5px;font-size: 15px;padding-right: 5px;}
+
+
+.wrapper1 {
+background:url('../img/login/login_bg.gif');
+}
